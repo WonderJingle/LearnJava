@@ -13,16 +13,18 @@ class Bicycle {
     }
 
     void speedUp(int increment) {
-         speed = speed + increment;                                  }
+         speed = speed + increment;                                  
+    }
                                     
     void applyBrakes(int decrement) {
-	 speed = speed - decrement;                                  }
+	 speed = speed - decrement;                                  
+    }
 
     void printStates() {
 	 System.out.println("cadence:" + cadence + " speed:" + speed + " gear:" + gear); 
     }
-
 }
+
 class BicycleDemo {
     public static void main(String[] args) {
 
@@ -37,10 +39,12 @@ class BicycleDemo {
        bike1.speedUp(10);
        bike1.changeGear(2);
        bike1.printStates();
-       bike2.changeCadence(50);			                                                                               bike2.speedUp(10);
+       
+       bike2.changeCadence(50);			                                                                               
        bike2.changeGear(2);
-       bike2.changeCadence(50);
-       bike2.speedUp(10);                                                                                                      bike2.changeGear(3);
+       bike2.changeCadence(40);
+       bike2.speedUp(10);
+       bike2.changeGear(3);	    
        bike2.printStates();
-                                                                                                                            }
-			                                                                                                }
+    }
+}
