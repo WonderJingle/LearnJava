@@ -1,3 +1,4 @@
+// Reference document https://docs.oracle.com/javase/tutorial/java/concepts/class.html
 class Bicycle {
 
     int cadence = 0;
