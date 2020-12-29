@@ -7,8 +7,10 @@ public class assignment21 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int bjt;
-        int utc;
+//	initialization
         Scanner time = new Scanner(System.in);
+		// Read Beijing time, output UTC time
+	int utc;
         bjt = time.nextInt();
         if ( bjt >= 800 )
         {
