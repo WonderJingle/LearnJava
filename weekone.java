@@ -8,6 +8,7 @@ public class weekone {
 		// TODO Auto-generated method stub
 //	initialization	
         Scanner in = new Scanner(System.in);
+//		Read the temperature of F and output the temperature of C after calculation
 	int f;
         double c;
         f = in.nextInt();
