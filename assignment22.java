@@ -6,10 +6,12 @@ public class assignment22 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        int i;
+//      initialization  
+	Scanner in = new Scanner(System.in);
+		// Read an integer, output signal status
+	int i;
         String r = null;        
         String s = null;
-        Scanner in = new Scanner(System.in);
         i = in.nextInt();
         switch (i/10)
         {
