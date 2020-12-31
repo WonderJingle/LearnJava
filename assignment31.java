@@ -11,25 +11,25 @@ public class assignment31 {
 		int number = 0;		//think about what variable you will use? and how many?
 		int odd = 0;
 		int even = 0;
-//		use do-while to solve this
-//			do {
-//				number = in.nextInt();
-//				if ( number > 0 & number < 100000)
-//				{
-//					if ( number != 2*(number/2) )
-//					{
-//						odd = odd+1;
-//					}
-//					else
-//					{
-//						even = even+1;
-//					}
-//				}
-//				else if (number != -1)
-//				{
-//					System.out.println(number + " is out of range!");
-//				}
-//			} while (number != -1);
+/*		use do-while to solve this
+			do {
+				number = in.nextInt();
+				if ( number > 0 & number < 100000)
+				{
+					if ( number != 2*(number/2) )
+					{
+						odd = odd+1;
+					}
+					else
+					{
+						even = even+1;
+					}
+				}
+				else if (number != -1)
+				{
+					System.out.println(number + " is out of range!");
+				}
+			} while (number != -1);						*/
 //		use while to solve this
 		number = in.nextInt();
 		while (number != -1)
