@@ -1,5 +1,6 @@
 package week3loop;
-//think about how you solve this as a human? convert it into sentence, convert it into steps, convert it into algorithm.
+/* think about how you solve this as a human? convert it into sentence, convert it into steps, convert it into algorithm, 
+figure out when loop and when branch, figure out the conditions that keep the loop going and conditions that cause branch.	*/ 
 import java.util.Scanner;
 
 public class assignment31 {
