@@ -144,7 +144,7 @@ public class assignment42 {
   				System.out.print("jiu");
   				break;
   			}
-  			if ( number != 0 || d != 1 )
+  			if ( number != 0 || d != 1 )	//按照题目要求，读数之间要空格，但是最后一个读数没有空格。得益于上面获取位数的代码，这里可以判断出，如果到最后一位，就不输出空格。
   			{
   				System.out.print(" ");
   			} 
