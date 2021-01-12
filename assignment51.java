@@ -93,7 +93,7 @@ public class assignment51 {
 				continue MAIN_LOOP;
 			}
 		}
-		for ( int i=intermediate.length-1; i>1; i--)	// 问题：遍历了数组的所有位置，浪费资源
+		for ( int i=intermediate.length-1; i>1; i--)	// 问题：debug模式可以看到，计算机遍历了数组的所有位置，需要循环100遍。可否用二分法，对这部分代码做改动，减少循环遍数？
 		{
 			if ( intermediate[i] !=0 )	// 去掉带零的
 			{
